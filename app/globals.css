@@ -927,90 +927,6 @@ textarea:focus-visible {
   line-height: 1.75;
 }
 
-.platform-strip {
-  display: grid;
-  grid-template-columns: 1.25fr 1fr 1fr;
-  align-items: stretch;
-  gap: 0;
-  margin-top: 35px;
-}
-
-.platform-strip__intro,
-.platform-link {
-  display: flex;
-  min-height: 74px;
-  flex-direction: column;
-  justify-content: center;
-  border-right: 1px solid #ffffff20;
-}
-
-.platform-strip__intro {
-  padding-right: 23px;
-}
-
-.platform-strip__overline {
-  color: #899bb5;
-  font-size: 9px;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-}
-
-.platform-strip__intro p {
-  margin: 7px 0 0;
-  color: #c0cbda;
-  font-size: 11px;
-}
-
-.platform-link {
-  position: relative;
-  padding: 0 25px;
-  transition: background-color 170ms ease;
-}
-
-.platform-link:hover {
-  background: #ffffff08;
-}
-
-.platform-link:last-child {
-  border-right: 0;
-}
-
-.platform-link__name {
-  margin-bottom: 5px;
-  font-size: 19px;
-  font-weight: 760;
-  letter-spacing: -0.055em;
-}
-
-.platform-link__name--xataka {
-  color: #fff;
-}
-
-.platform-link__name--3d {
-  color: #fff;
-  font-weight: 800;
-}
-
-.platform-link > span:nth-child(2) {
-  color: #9baec8;
-  font-size: 10px;
-}
-
-.platform-link svg {
-  position: absolute;
-  top: 22px;
-  right: 22px;
-  color: #8298b9;
-}
-
-.experience-disclaimer {
-  max-width: 790px;
-  margin: 23px 0 0;
-  color: #899bb3;
-  font-size: 10px;
-  line-height: 1.75;
-}
-
 /* Services */
 .services-section {
   background: #f7f9fc;
@@ -2360,39 +2276,6 @@ textarea:focus-visible {
 
   .experience-point p {
     font-size: 10px;
-  }
-
-  .platform-strip {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .platform-strip__intro {
-    grid-column: 1 / -1;
-    min-height: 55px;
-    border-right: 0;
-    border-bottom: 1px solid #ffffff20;
-  }
-
-  .platform-link {
-    min-height: 68px;
-    padding: 0 12px;
-  }
-
-  .platform-link:nth-child(2) {
-    padding-left: 0;
-  }
-
-  .platform-link svg {
-    top: 19px;
-    right: 9px;
-  }
-
-  .platform-link__name {
-    font-size: 17px;
-  }
-
-  .experience-disclaimer {
-    font-size: 9px;
   }
 
   .service-grid {

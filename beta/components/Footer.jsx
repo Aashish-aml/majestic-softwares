@@ -41,6 +41,9 @@ export default function Footer() {
                 <a href="mailto:contact@majesticsoftwares.in">contact@majesticsoftwares.in</a>
               </li>
               <li>
+                <a href="https://www.linkedin.com/company/majestic-softwares" target="_blank" rel="noreferrer">LinkedIn</a>
+              </li>
+              <li>
                 <span>Austin · Remote-first</span>
               </li>
             </ul>

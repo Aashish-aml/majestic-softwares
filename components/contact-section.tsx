@@ -1,4 +1,4 @@
-import { ArrowUpRight, Globe2, Mail, MoveUpRight } from 'lucide-react'
+import { ArrowUpRight, ExternalLink, Globe2, Mail, MoveUpRight } from 'lucide-react'
 import { ContactForm } from '@/components/contact-form'
 
 export function ContactSection() {
@@ -15,6 +15,7 @@ export function ContactSection() {
             <div className="contact-details">
               <div><Globe2 size={16} aria-hidden="true" /><span>Remote-first · Based in India</span></div>
               <div><Mail size={16} aria-hidden="true" /><a href="mailto:contact@majesticsoftwares.in">contact@majesticsoftwares.in</a></div>
+              <div><ExternalLink size={16} aria-hidden="true" /><a href="https://www.linkedin.com/company/majestic-softwares" target="_blank" rel="noreferrer">LinkedIn</a></div>
             </div>
             <a className="contact-copy__link" href="#top">Back to the top <MoveUpRight size={15} aria-hidden="true" /></a>
             <span className="contact-panel__decoration" aria-hidden="true" />

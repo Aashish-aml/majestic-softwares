@@ -1,4 +1,4 @@
-import { ArrowUpRight, Globe2, Layers3, RadioTower, Workflow } from 'lucide-react'
+import { Globe2, Layers3, RadioTower, Workflow } from 'lucide-react'
 
 const experiencePoints = [
   { icon: Globe2, title: '45+ websites', text: 'Experience across a wide Spanish digital publishing ecosystem.' },
@@ -31,26 +31,6 @@ export function ExperienceSection() {
             </article>
           ))}
         </div>
-
-        <div className="platform-strip">
-          <div className="platform-strip__intro">
-            <span className="platform-strip__overline">PLATFORM EXAMPLES</span>
-            <p>Our team&apos;s previous contributions</p>
-          </div>
-          <a className="platform-link" href="https://www.xataka.com/" target="_blank" rel="noreferrer">
-            <span className="platform-link__name platform-link__name--xataka">Xataka</span>
-            <span>Technology &amp; science</span><ArrowUpRight size={16} aria-hidden="true" />
-          </a>
-          <a className="platform-link" href="https://www.3djuegos.com/" target="_blank" rel="noreferrer">
-            <span className="platform-link__name platform-link__name--3d">3DJuegos</span>
-            <span>Gaming &amp; culture</span><ArrowUpRight size={16} aria-hidden="true" />
-          </a>
-        </div>
-
-        <p className="experience-disclaimer">
-          These are examples of platforms our team members have contributed to through prior professional engagements.
-          Majestic Softwares is independent and is not affiliated with or endorsed by Webedia.
-        </p>
       </div>
     </section>
   )

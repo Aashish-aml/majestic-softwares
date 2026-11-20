@@ -25,6 +25,8 @@ export function SiteFooter() {
               Remote-first · India
               <br />
               <a href="mailto:contact@majesticsoftwares.in">contact@majesticsoftwares.in</a>
+              <br />
+              <a href="https://www.linkedin.com/company/majestic-softwares" target="_blank" rel="noreferrer">LinkedIn</a>
             </span>
           </div>
           <div className="footer-navigation">
