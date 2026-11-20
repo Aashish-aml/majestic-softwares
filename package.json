@@ -5,7 +5,10 @@
   "packageManager": "pnpm@12.3.4",
   "scripts": {
     "dev": "next dev",
+    "predev": "node scripts/ensure-beta.mjs",
     "build": "next build",
+    "prebuild": "pnpm run build:beta",
+    "build:beta": "npm --prefix beta ci && npm --prefix beta run build && node scripts/copy-beta-export.mjs",
     "start": "next start"
   },
   "dependencies": {

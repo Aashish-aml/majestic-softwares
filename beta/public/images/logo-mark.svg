@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MajesticSoftwares mark">
+  <title>MajesticSoftwares</title>
+  <!-- Geometric M built from crisp vectors; terracotta brand mark -->
+  <rect width="64" height="64" rx="14" fill="#BC5433"/>
+  <path
+    fill="#F9F9F8"
+    d="M14 46V18.5c0-1.2.9-2 2-2h3.1c.8 0 1.5.4 1.9 1.1L32 36.2 42.9 17.6c.4-.7 1.1-1.1 1.9-1.1H48c1.1 0 2 .8 2 2V46c0 1.1-.9 2-2 2h-4.2c-1.1 0-2-.9-2-2V30.4L35.3 45c-.4.7-1.1 1.1-1.9 1.1h-2.8c-.8 0-1.5-.4-1.9-1.1L22.2 30.4V46c0 1.1-.9 2-2 2H16c-1.1 0-2-.9-2-2z"
+  />
+</svg>

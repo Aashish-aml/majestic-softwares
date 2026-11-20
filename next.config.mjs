@@ -1,10 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  agentRules: false,
   typescript: {
     ignoreBuildErrors: true,
   },
   images: {
     unoptimized: true,
+  },
+  async rewrites() {
+    return [
+      { source: '/beta', destination: '/beta/index.html' },
+      { source: '/beta.txt', destination: '/beta/index.txt' },
+      { source: '/beta/about', destination: '/beta/about.html' },
+      { source: '/beta/work', destination: '/beta/work.html' },
+      { source: '/beta/services', destination: '/beta/services.html' },
+      { source: '/beta/team', destination: '/beta/team.html' },
+    ]
   },
   async headers() {
     return [
