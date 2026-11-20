@@ -21,7 +21,11 @@ export function SiteFooter() {
               <span className="brand__name">Majestic<span>Softwares</span></span>
             </a>
             <p>Experienced engineering.<br />Made for what&apos;s next.</p>
-            <span className="footer-location">Remote-first · India</span>
+            <span className="footer-location">
+              Remote-first · India
+              <br />
+              <a href="mailto:contact@majesticsoftwares.in">contact@majesticsoftwares.in</a>
+            </span>
           </div>
           <div className="footer-navigation">
             <h2>Explore</h2>

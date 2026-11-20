@@ -14,7 +14,7 @@ export function ContactSection() {
             </p>
             <div className="contact-details">
               <div><Globe2 size={16} aria-hidden="true" /><span>Remote-first · Based in India</span></div>
-              <div><Mail size={16} aria-hidden="true" /><span>Business inquiries welcome</span></div>
+              <div><Mail size={16} aria-hidden="true" /><a href="mailto:contact@majesticsoftwares.in">contact@majesticsoftwares.in</a></div>
             </div>
             <a className="contact-copy__link" href="#top">Back to the top <MoveUpRight size={15} aria-hidden="true" /></a>
             <span className="contact-panel__decoration" aria-hidden="true" />

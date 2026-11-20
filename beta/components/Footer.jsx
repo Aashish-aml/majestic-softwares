@@ -38,7 +38,7 @@ export default function Footer() {
                 </button>
               </li>
               <li>
-                <a href="mailto:hello@majesticsoftwares.com">hello@majesticsoftwares.com</a>
+                <a href="mailto:contact@majesticsoftwares.in">contact@majesticsoftwares.in</a>
               </li>
               <li>
                 <span>Austin · Remote-first</span>
